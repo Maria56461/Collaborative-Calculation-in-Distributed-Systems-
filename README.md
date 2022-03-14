@@ -6,7 +6,7 @@ MPI distributed program in which more processes (workers) are grouped in a topol
 ## Tema 3- Calcule colaborative in sisteme distribuite
 -------------------------------------------------------------------------------
 
-Task 1- Stabilirea Topologiei
+### Task 1- Stabilirea Topologiei
 Fiecare dintre cei 3 MASTER-i isi citeste workerii din fisierul
 corespunzator si ii stocheaza intr-un vector. Apoi fiecare MASTER isi trimite
 propria topologie catre ceilalti 2 MASTER-i (la randul lui, primeste
@@ -15,7 +15,7 @@ o afiseaza in terminal. Apoi, fiecare MASTER trimite workerilor sai rangul lui,
 astfel toti workerii vor sti cine le este coordonatorul. MASTERUL trimite catre
 workeri si intreaga topologie, iar acestia o afiseaza.  
 
-Task 2- Realizarea calculelor
+### Task 2- Realizarea calculelor
 MASTER1 aloca si initializeaza un vector. Fiecare worker va prelucra
 "N / nrWorkeri" elemente din vector, iar ultimul worker la lui MASTER3 va
 prelucra in plus restul de elemente. MASTER1 trimite vectorul complet lui

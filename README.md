@@ -3,7 +3,7 @@ MPI distributed program in which more processes (workers) are grouped in a topol
 
 ## Maria-Alexandra Barbu, 335CA
 
-## Tema 3- Calcule colabotrative in sisteme distribuite
+## Tema 3- Calcule colaborative in sisteme distribuite
 -------------------------------------------------------------------------------
 
 Task 1- Stabilirea Topologiei
